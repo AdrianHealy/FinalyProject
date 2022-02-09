@@ -1,0 +1,24 @@
+.detail-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 40px;
+}
+.detail-left-img {
+  padding: auto;
+}
+
+.detail-left-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.detail-right {
+  margin-left: 30px;
+}
+.detail-right h3 {
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.detail-right strong {
+}

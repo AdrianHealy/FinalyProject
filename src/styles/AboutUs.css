@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-body-container {
+}
+
+.right-side {
+  padding: 15px;
+  width: 400px;
+}
+
+.left-side {
+}
+#logo-about {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

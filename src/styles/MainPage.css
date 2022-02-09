@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=M+PLUS+1:wght@200;300;400;500&family=Mohave&family=Montserrat:wght@300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,600&family=Roboto:wght@400;700;900&display=swap");
+.main-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+.main__section {
+}
+.content {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 100px;
+  padding: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content button {
+  height: 45px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+}
+
+.content-text {
+  position: relative;
+}
+
+h1 {
+  font-size: 38px;
+  position: relative;
+  color: inherit;
+  width: 350px;
+}
+
+.content-text p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 50px;
+  width: 300px;
+}

@@ -1,0 +1,36 @@
+.pagination {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  font-family: "Open Sans", sans-serif;
+}
+
+.slider h3 {
+  font-size: 50px;
+}
+.slider p {
+  font-size: 20px;
+}
+
+.btn-one {
+  width: 150px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  background-color: red;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-two {
+  width: 150px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  background-color: goldenrod;
+  font-family: "Open Sans", sans-serif;
+}

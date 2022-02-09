@@ -1,0 +1,86 @@
+.lorem {
+  margin: 0 auto;
+  width: 900px;
+  color: #fff;
+}
+
+.galery__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-bottom: 100px;
+}
+.galary_list {
+  border-style: none;
+  border-radius: 10px;
+  height: 250px;
+  width: 350px;
+  padding: 20px auto;
+  margin-top: 30px;
+  object-fit: contain;
+}
+
+#galery_page {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.cellar {
+  /* position: absolute;
+  bottom: 0; */
+}
+
+.galary_list:first-child {
+  background: url(https://avatars.mds.yandex.net/i?id=c49379c41e57b76ec29edc7505350020-5532663-images-thumbs&n=13);
+  background-position: center center;
+}
+
+.galary_list:nth-child(2) {
+  background: url(https://avatars.mds.yandex.net/i?id=19b185aad05cb13d24719262bb04327d-5887129-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(3) {
+  background: url(https://avatars.mds.yandex.net/i?id=7fbfce26733e2e328b18a4533b5b87c3-5345552-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(4) {
+  background: url(https://avatars.mds.yandex.net/i?id=89577608845a425a856261a066156f7c-5558644-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(5) {
+  background: url(https://avatars.mds.yandex.net/i?id=1e4aaa565e8b0edbb088858ef08db73a-5859361-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(6) {
+  background: url(https://avatars.mds.yandex.net/i?id=77d711d5c89ef8632bddbec773fe12a3-4901462-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(7) {
+  background: url(https://avatars.mds.yandex.net/i?id=deadd5dc87b91f50f72379bc87f493fe-4944850-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(8) {
+  background: url(https://avatars.mds.yandex.net/i?id=b10272dddb7cb52920562b850a6fe010-5911513-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(9) {
+  background: url(https://avatars.mds.yandex.net/i?id=bb52cab7d07dd3c7cee0c61e2bdb1880-5479195-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(10) {
+  background: url(https://avatars.mds.yandex.net/i?id=d825f76e37e5420524c6f4c738b8d198-5539192-images-thumbs&n=13);
+  background-position: center center;
+}
+.galary_list:nth-child(11) {
+  background: url(https://avatars.mds.yandex.net/i?id=434d7c8b54fdb9ff9b05f98918ce128e-4936576-images-thumbs&n=13);
+  background-position: center center;
+}
+
+.galary_list:last-child {
+  background: url(https://avatars.mds.yandex.net/i?id=f83e395f06b45862540df85ca74fd822-5554009-images-thumbs&n=13);
+  background-position: center center;
+}

@@ -1,0 +1,98 @@
+.review__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.container-comment p span {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.container-comment p {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  border: solid;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container-comment {
+  /* border: solid; */
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.review__form__body {
+  display: flex;
+}
+.review__form__body-form {
+  width: 100%;
+}
+
+.review__form__body-form input {
+  height: 40px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 7px;
+  margin-left: 100px;
+}
+
+.review-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.review-btn button {
+  border-radius: 8px;
+  font-size: 25px;
+  color: black;
+  background-color: gold;
+  border: none;
+}
+
+/* .container {
+  width: 75%;
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px; 
+  padding: 16px; 
+  margin: 16px auto; 
+} */
+/* .container img {
+  float: left; 
+  margin-right: 20px;
+  border-radius: 50%; 
+  width: 90px;
+} */
+
+.container span {
+  font-size: 18px;
+  margin-right: 15px;
+  font-style: solid;
+}
+@media (max-width: 450px) {
+  .container {
+    text-align: center;
+  }
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+#back-img {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
